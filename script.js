@@ -55,24 +55,24 @@ const listElement = document.getElementById('list')
 
 // object
 
-const person = {
-  firstName: 'ara',
-  lastName: 'bara',
-  birthYear: 2004,
-  color: 'white',
-  gay: false,
-  languages: ['ru', 'ukr', 'en'],
-  getFullName: function() {
-    console.log(person.firstName + ' ' + this.lastName)
-  }
-}
-console.log(person.birthYear)
-console.log(person['languages'])
-const key = 'gay'
-console.log(person[key])
-person.gay = true
-console.log(person['gay'])
-person.getFullName()
+// const person = {
+//   firstName: 'ara',
+//   lastName: 'bara',
+//   birthYear: 2004,
+//   color: 'white',
+//   gay: false,
+//   languages: ['ru', 'ukr', 'en'],
+//   getFullName: function() {
+//     console.log(person.firstName + ' ' + this.lastName)
+//   }
+// }
+// console.log(person.birthYear)
+// console.log(person['languages'])
+// const key = 'gay'
+// console.log(person[key])
+// person.gay = true
+// console.log(person['gay'])
+// person.getFullName()
 
 const notes = [
   {
